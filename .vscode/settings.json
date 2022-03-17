@@ -1,0 +1,39 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	"[html]": {
+		"editor.formatOnSave": true
+	},
+	"[css]": {
+		"editor.defaultFormatter": null,
+		"editor.formatOnSave": false
+	},
+	"[scss]": {
+		"editor.formatOnSave": true
+	},
+	"[javascript]": {
+		"editor.formatOnSave": true
+	},
+	"[json]": {
+		"editor.formatOnSave": true
+	},
+	"[php]": {
+		"editor.defaultFormatter": null,
+		"editor.formatOnSave": false
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.fixAll.stylelint": true
+	},
+	"cSpell.ignorePaths": [
+		"**/package.json",
+		"**/package-lock.json",
+		"**/yarn.lock",
+		"**/node_modules/**",
+		"**/webpack.config.js/**",
+		".vscode",
+		"**/assets/**",
+		"src/js/libs",
+		"src/scss/libs"
+	]
+}
